@@ -1,0 +1,799 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('Reformagroteskmediumc.otf');
+}
+@font-face {
+    font-family: 'ReformaB';
+    src: url('ReformaGroteskBoldC.ttf');
+}
+@font-face {
+    font-family: 'ReformaC';
+    src: url('ReformaGroteskDemiC.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(png/Rectangle\ 64.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+                          /* Первый блок */
+
+
+
+
+.panel{
+    width: 100%;
+    height: 100px;
+}
+.panel1{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 40px;
+}
+
+.menu{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text1{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: 'Reforma';
+}
+
+.zagolovok{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+
+}
+
+.car{
+    height: 188px;
+    color:  #DB3138;
+    font-size: 150px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'ReformaB';
+}
+
+.lorem{
+    margin: auto;
+    text-align: center;
+    width: 437px;
+    height: 96px;
+    color: white;
+    line-height: 120%;
+    margin-top: 100px;
+    font-family: 'Reforma';
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.musc{
+    margin-top: 140px;
+}
+
+.natpis{
+    margin-left: auto;
+    margin-right: auto;
+    width: 146px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.knopka{
+    width: 144px;
+    height: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Reforma';
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#DB3138;
+    border: none;
+    position: relative;
+    bottom: 60px;
+}
+
+/* Блок с сеткой 1 */
+
+.fff{
+    margin-top: -200px;
+    margin-left: 300px;
+    position: relative;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+}
+.df{
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+.hg{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 205px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+
+/* Блок с сеткой 2 */
+
+.fff1{
+    margin-top: -110px;
+    margin-left: 920px;
+    position: relative;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+}
+.df1{
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 880px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+.hg1{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 885px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+
+/* Блок с сеткой 3 */
+
+.fff11{
+    margin-top: -110px;
+    margin-left: 1500px;
+    position: relative;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+}
+.df11{
+    height: 10px;
+    margin-top: 50px;
+    margin-left: 1470px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+.hg11{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 1468px;
+    position: relative;
+    color: #DB3138;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    display: flex;
+}
+
+                     /* Второй блок */
+
+
+main{
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(20,20,20);
+}
+.text2{
+    color: rgb(255, 255, 255);
+    left: 312px;
+    font-size: 60px;
+    font-family: 'ReformaC';
+    display: flex;
+    padding-top: 136px;
+    padding-left: 350px;
+}
+.text21{
+    color: rgb(255, 255, 255);
+    font-family: 'ReformaC';
+    display: flex;    left: 312px;
+    font-size: 60px;
+    font-family: 'ReformaC';
+    display: flex;
+    padding-left: 350px;
+}
+.romb{
+    padding-top: 50px;
+    padding-left: 350px;
+}
+.texttext{
+    height: 126px;
+    width: 526px;
+    color: rgb(255, 255, 255);
+    font-family: 'Reforma';
+    display: flex;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+table{
+    height: 526px;
+    display: flex;
+}
+.h2{
+    padding-left: 1050px;
+    padding-top: 25px;
+    color: #DB3138;
+    font-family: 'Reforma';
+    display: flex;
+    text-align: center;
+}
+.text22{
+    color: rgb(255, 255, 255);
+    font-family: 'Reforma';
+    display: flex;
+    padding-left: 1050px;
+    padding-top: 25px;
+}
+
+/* Сетка */
+
+/* Блок 1 */
+
+.img{
+    display: flex;
+    margin-top: -350px;
+    padding-left: 1000px;
+    position: relative;
+}
+.h5{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+.ob{
+    margin-top: -600px;
+    margin-left: -80px;
+}
+
+/* Блок 2 */
+
+.h15{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text1555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+.ob1{
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+/* Блок 2 */
+
+.h25{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text2555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+.ob2{
+    margin-top: 190px;
+    margin-left: 180px;
+}
+
+/* Блок 3 */
+
+.h35{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text3555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+
+/* блок 4 */
+
+.ob3{
+    margin-top: 190px;
+    margin-left: 180px;
+}
+
+/* блок 5 */
+
+.ob4{
+    margin-top: 190px;
+    margin-left: 180px;
+}
+
+/* блок 6 */
+
+.h65{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text6555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+.ob5{
+    margin-top: -420px;
+    margin-left: -80px;
+}
+
+/* блок 7 */
+
+
+.h75{
+    margin-top: -140px;
+    padding-left: 1200px;
+    position: relative;
+    display: flex;
+    color: #DB3138;
+    font-family: 'Reforma';
+    font-size: 42px;
+}
+.text7555{
+    margin-top: 10px;
+    padding-left: 1090px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+.ob6{
+    margin-top: 200px;
+    margin-left: -80px;
+}
+
+/* блок 8 */
+
+.ob7{
+    margin-top: 200px;
+    margin-left: -80px;
+}
+
+                 /* Блок слайдер */
+
+section{
+padding-top: 100px;
+    background-color: rgb(20,20,20);
+}
+
+/* Сладер кнопки */
+
+.slider{
+    display: flex;
+    margin-top: 0px;
+}
+.left{
+    padding-left: 50px;
+
+}
+.right{
+    margin-left: 150px;
+}
+
+/* Текст на кртинках */
+
+.tt1{
+    margin-top: -75px;
+    padding-left: 350px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 220px;
+    text-align: center;
+}
+
+.tt2{
+    margin-top: -65px;
+    padding-left: 850px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 220px;
+    text-align: center;
+}
+
+.tt3{
+    margin-top: -65px;
+    padding-left: 1350px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 220px;
+    text-align: center;
+}
+
+/* Элементы слайдера */
+
+.object{
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+             /* Блок МАТЕРИАЛЫ ОТ ЛУЧШИХ КОМПАНИЙ */
+
+/* Загаловок */
+
+.zag{
+    padding-top: 100px;
+    padding-left: 400px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Иконка */
+
+.icon1{
+    padding-left: 300px;
+    display: flex;
+}
+
+/* Текст */
+
+.tx{
+    margin-top: -50px;
+    padding-left: 400px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/* Ромбики */
+
+.romb1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+/* Загаловок 2*/
+
+.zag1{
+    padding-top: 50px;
+    padding-left: 400px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Иконка 2*/
+
+.icon11{
+    padding-left: 300px;
+    display: flex;
+}
+
+/* Текст 2*/
+
+.tx1{
+    margin-top: -50px;
+    padding-left: 400px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/* Ромбики 2*/
+
+.romb11{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+/* Загаловок 3*/
+
+.zag11{
+    padding-top: 50px;
+    padding-left: 400px;
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Иконка 3*/
+
+.icon111{
+    padding-left: 300px;
+    display: flex;
+}
+
+/* Текст 3*/
+
+.tx11{
+    margin-top: -50px;
+    padding-left: 400px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/* Картинка */
+
+.img1{
+    display: flex;
+    margin-top: -620px;
+    padding-left: 1000px;
+}
+
+/* Текст */
+
+.te{
+    margin-top: 30px;
+    padding-left: 1150px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/* Кнопки перемотки */
+
+.knopk1{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 1000px;
+}
+
+.knopk2{
+    display: flex;
+    margin-top: -71px;
+    padding-left: 1550px;
+}
+
+               /* Блок с нашими услугами */
+
+.zz{
+    margin-top: 0px;
+    margin-left: 860px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 52px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/* Кнопки ОКЛЕЙКА */
+
+.tet1{
+    margin-top: 50px;
+    margin-left: 1050px;
+}
+
+/* Кнопки ДЕТЕЙЛИНГ */
+
+.tet2{
+    margin-top: -250px;
+    margin-left: 750px;
+}
+
+/* Ромбики */
+
+.ig{
+margin-left: 900px;
+padding-top: 50px;
+}
+
+            /* Новый блок */
+
+.section1{
+    height: 1200px;
+    background-color: rgb(20,20,20);
+}
+
+/* Рамка */
+
+.rm{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+/* Иконка */
+
+.ic{
+    position: relative;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+/* Загаловок в рамке */
+
+.zp{
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 24px;
+    padding-left: 180px;
+    margin-top: -250px;
+}
+
+/* Текст */
+
+.hh{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    color: #ffffff;
+    font-family: 'ReformaC';
+    font-size: 16px;
+    word-wrap: break-word;
+    width: 200px; 
+    text-align: center;
+}
+
+/* Кнопка ПОДРОБНЕЕ */
+
+.ff{
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+}
+.ramka{
+    display: block;
+    margin: 0 auto;
+}
