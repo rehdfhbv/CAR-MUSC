@@ -12,6 +12,76 @@
 }
 
 
+@media screen and (min-width: 430px){
+header{
+    width: 430px;    
+}
+.panel{
+    width: 430px;
+}
+.panel1{
+    width: 430px;
+}
+.zagolovok{
+    width: 430px;
+}
+}
+
+
+@media screen and (min-height: 932px){
+header{
+    height: 932px;
+}
+.panel{
+    height: 932px;
+}
+.panel1{
+    height: 932px;
+}
+.zagolovok{
+    height: 932px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -23,10 +93,6 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-
-
 
 
 
